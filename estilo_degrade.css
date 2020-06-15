@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+
+#exemplo {
+    width: 600px;
+    height: 300px;
+    background: blue; /* Caso o navegador não dê suporte será exibido a cor sólida definida aqui */
+    background: linear-gradient(-180deg, white, blue);
+    /*background: -moz-linear-gradient(white, blue);
+    background: -o-linear-gradient(white, blue);
+    background: -webkit-linear-gradient(white, blue) */
+}

@@ -1,0 +1,25 @@
+body {
+    margin: 10;
+    background-color: #EEE;
+}
+
+form {
+    width: 200px;
+    height: 200px;
+    background-color: #DDD;
+    margin: auto;
+    padding: 20px;
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+input {
+    padding: 5px;
+    margin-top: 0px;
+    width: 200;
+}

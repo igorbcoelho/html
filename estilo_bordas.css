@@ -1,0 +1,36 @@
+body {
+    margin: 0;;
+}
+
+/* arredontando todas as bordas igualmente */
+#borda1 {
+    background-color: green;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+/* arredondando cada borda individualmente */
+#borda2 {
+    background-color: blue;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 100px;
+}
+
+/* transformando o quadrado em círculo*/ 
+#borda3 {
+    background-color: red;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
