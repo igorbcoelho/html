@@ -34,4 +34,5 @@ a {
 a:hover {
     color: #FF0000;
     font-weight: bold;
+    font-size: 15pt;
 }
