@@ -136,7 +136,40 @@ nav a:hover {
     font-size: 13px;
     text-decoration: none;
 }
-.banner_table {
+
+.table {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
     font-size: 12px;
+    color: #ffffff;
 }
+
+.t1 {
+    flex: 3;
+    width: auto;
+    margin-top: 10px;
+
+}
+
+.t1_days {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.t2 {
+    flex: 1;
+    width: auto;
+    margin-top: 10px;
+
+}
+
+.t2_hours {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-inline-start: 5px;
+    border-bottom: 1px solid #ffffff;
+}
+
 
