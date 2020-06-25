@@ -155,21 +155,50 @@ nav a:hover {
 .t1_days {
     padding-top: 10px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #39aae1;
 }
 
 .t2 {
     flex: 1;
     width: auto;
     margin-top: 10px;
-
 }
 
 .t2_hours {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-inline-start: 5px;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #39aae1;
 }
 
+#geral {
+    display: flex;
+    justify-content: center;
+}
 
+#geral section {
+    flex: 2;
+}
+
+#geral aside {
+    flex: 1;
+}
+
+.widget_title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget_title_text {
+    color: #000000;
+    font-size: 21px;
+    font-weight: bold;
+    
+}
+
+.widget_title_bar {
+    width: 50px;
+    height: 2px;
+    background-color: #36a9e1;
+    margin-top: 10px;
+}
