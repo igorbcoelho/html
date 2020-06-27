@@ -260,3 +260,27 @@ article .news_resume {
     line-height: 20px;
     margin-bottom: 30px;
 }
+
+aside .widget .widget_body {
+    justify-content: space-between;
+}
+
+aside .widget .widget_body a {
+    text-decoration: none;
+}
+
+aside .widget .widget_body a .box_departments {
+    flex: 2;
+    width: 150px;
+    height: 150px;
+    min-width: 100px;
+    min-height: 100px;
+    background-color: #36aae1;
+    margin-bottom: 30px;
+}
+
+.box_appointment {
+    font-size: 13px;
+    color: #5c5c5c;
+    line-height: 20px;
+}
